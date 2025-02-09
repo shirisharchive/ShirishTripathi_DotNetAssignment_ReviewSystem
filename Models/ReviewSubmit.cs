@@ -17,5 +17,8 @@ namespace Shirish_Tripathi_Dot_Net_Assignment.Models
         [Range(1, 5, ErrorMessage = "Star rating must be between 1 and 5")]
         public int StarRating { get; set; }  // Added Star Rating
 
+        [Required]
+        public string ImageLink { get; set; } 
+
     }
 }
